@@ -1,6 +1,6 @@
 #!/bin/bash
 # Redefine myvar to myarray using parenthesis
-myarray=($HOSTS)
+myarray=($WHAT_PING)
 
 echo "My array: ${myarray[@]}"
 echo "Number of elements in the array: ${#myarray[@]}"
